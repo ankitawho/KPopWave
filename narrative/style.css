@@ -1,11 +1,55 @@
-*{
-    margin: 0;
+* {
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+      box-sizing: border-box;
+    }
+    
+    html {
+      font: system-ui, sans-serif;
+    }
+    
+    body {
+      font-family: montserrat;
+    }
+    
+    nav{
+      background: #2A2A2A;
+      height: 85px;
+      width: 100%;
+  
+    }
+  
+    label.logo{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+  
+    }
+    nav ul{
+      float: right;
+      margin-right: 5px;
+      
+  
+    }
+    nav ul li{
+      display: inline-block;
+      line-height: 8-px;
+      margin: 0 5px;
+      
+    }
+  
+    nav ul li a{
+      float: right;
+      margin-right: 10px;
+      color: #fff;
+      text-align: centre;
+      font-size: 14px;
+      text-transform: uppercase;
+      padding: 35px 20px;
+     
+      }
+   
